@@ -1,13 +1,13 @@
 class Translation(object):
     START_TEXT = """Hai,
 
-<code>I'm a Simple File Renamer bot and can upload as File or Video With Permanent Thumbnail support!💯.</code> \n\n<b>Bot Created By:</b> <a href='https://t.me/VKPROJECTS'>VK PROJECTS</a>
+<code>I'm a Simple File Renamer bot and can upload as File or Video With Permanent Thumbnail support!💯.</code> \n\n<b>Bot Created By:</b> <a href='https://t.me/VKPROJECTS'>@vkprojects</a>
 
 Press help button which is available at the bottom to know how to use me."""
 
     START_TEXT_1 = """Hai,
 
-<code> I'm a Simple File Renamer bot and can upload as File or Video With Permanent Thumbnail support!💯.</code> \n\n<b>Bot Created By:</b> <a href='https://t.me/VKPROJECTS'>VK PROJECTS'>VK PROJECTS</a>
+<code> I'm a Simple File Renamer bot and can upload as File or Video With Permanent Thumbnail support!💯.</code> \n\n<b>Bot Created By:</b> <a href='https://t.me/VKPROJECTS'>@vkprojects'>@vkprojects</a>
 
 Press help button which is available at the bottom to know how to use me."""
 
@@ -19,7 +19,7 @@ Press help button which is available at the bottom to know how to use me."""
     UPLOAD_START_VIDEO = "<tt>Uploading as video...⬆️</tt>"
     UPLOAD_START = "<tt>Uploading as File...⬆️</tt>"
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.95GB due to Telegram API limitations.I can't do anything for that 😢."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "**Thank you for Using Me > ©  @VKPROJECTS.**"
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "**Thank you for Using Me > ©  @vkprojects.**"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds.\nUploaded in {} seconds."
     NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
     NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.dog/VKPBOTS'>@VKPBOTS</a>"
@@ -44,10 +44,10 @@ Press help button which is available at the bottom to know how to use me."""
  
 <b>❤️ Made With Love:======= </b> @VKPROJECTS .
 
-<b>Thanks to My Boss :</b><a href="https://t.me/VKPROJECTS">Owner</a>
+<b>Thanks to My Boss :</b><a href="https://t.me/VKPROJECTS">vkprojects</a>
 
 
-📢𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @VKPROJECTS"""
+📢𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vkprojects"""
 
   
     REPLY_TO_DOC_FOR_RENAME_FILE = "🤦‍♂️ Reply to a Telegram media to `/rename New Name.extension` with custom thumbnail support.\n\n(For uploading as file).\n\nSee /help for more information. "
@@ -60,11 +60,11 @@ Free users only 1 request per 30 minutes.
 The given file name has {num} characters.
 
 <b>Short your file name please.</b>
-©️ <code>VKPROJECTS</code>
+©️ <code>vkprojects</code>
 Please short your file name and try again!"""
     ABOUT = """Hi {},
 
-🤖 My Name: [Renamer Bot](t.me/FileRenamerBot)
+🤖 My Name: Renamer Bot
     
 📝 Language: [Python 3](https://www.python.org/)
 
@@ -82,7 +82,7 @@ Please short your file name and try again!"""
 
 
     ABOUT_1 = """**MY DETAILS :**
-🤖 My Name: [Renamer Bot](t.me/FileRenamerBot)
+🤖 My Name: Renamer Bot
     
 📝 Language: [Python 3](https://www.python.org/)
 
