@@ -10,7 +10,8 @@
   ],
   "success_url": "https://telegram.dog/AnyDLBot",
   "website": "https://github.com/SpEcHiDe/AnyDLBot",
-  "repository": "https://github.com/Chris-Carlo/TGXRenamerBot",
+  "repository": "https://github.com/erichdanikeninfo/TG-Rename-Bot",
+  "logo": "https://telegra.ph/file/681227bece69de877e442.jpg",
   "env": {
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
@@ -19,6 +20,10 @@
     "TG_BOT_TOKEN": {
       "description": "Your bot token, as a string.",
       "value": ""
+    },
+    "USER_NAME": {
+      "description": "Your user name like @Ns_AnoNymouS",
+      "value": "@Ns_AnoNymouS"
     },
     "CHAT_BASE_TOKEN": {
       "description": "Your chat base token, as a string.",
@@ -34,7 +39,7 @@
     },
     "AUTH_USERS": {
       "description": "allow only pre-defined users to use this bot",
-      "value": "7351948 466337795"
+      "value": "",
       "required": false
     },
     "BANNED_USERS": {
