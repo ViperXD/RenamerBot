@@ -47,7 +47,7 @@ async def cb_handler(bot, update):
                 reply_markup=InlineKeyboardMarkup(
                   [
                       [
-                      InlineKeyboardButton('CHANNEL', url='https://t.me/VKPROJECTS'),
+                      InlineKeyboardButton('⚙CHANNEL⚙', url='https://t.me/VKPROJECTS'),
                       InlineKeyboardButton('📍ABOUT ME', callback_data='about')
                       ],
                       [
@@ -91,7 +91,7 @@ async def start(bot, update):
         reply_markup=InlineKeyboardMarkup(
         [
           [
-          InlineKeyboardButton('CHANNEL', url='https://t.me/VKPROJECTS'),
+          InlineKeyboardButton('⚙CHANNEL⚙', url='https://t.me/VKPROJECTS'),
           InlineKeyboardButton('📍ABOUT ME', callback_data='about')
           ],
           [
@@ -150,7 +150,7 @@ async def donate(bot, update):
              reply_markup=InlineKeyboardMarkup(
              [
                [
-                 InlineKeyboardButton('💸 DONATE💰', url='https://t.me/VIVEKTVP')
+                 InlineKeyboardButton('💸 DONATE💰', url='https://t.me/vkprojects/5')
                ]
              ]
            )
@@ -182,7 +182,7 @@ async def ban(bot, update):
    elif update.from_user.id not in Owner_id:
       await bot.send_message(
         chat_id=update.chat.id,
-        text="""Hai 😡 **{}** your not any admin this command only for admin of this bot for banning users from this bot""".format(update.from_user.first_name),
+        text="""Hai**{}** your not any admin this command only for admin of this bot for banning users from this bot""".format(update.from_user.first_name),
         parse_mode='Markdown'
       )
       return False
